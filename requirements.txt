@@ -1,0 +1,25 @@
+# Core
+numpy>=2.0,<2.3        # numba (SHAP dependency) requires NumPy <= 2.2
+pandas>=2.2
+scipy>=1.11
+
+# Visualisation
+matplotlib>=3.8
+seaborn>=0.13
+
+# Machine learning
+scikit-learn>=1.4
+imbalanced-learn>=0.14
+xgboost>=3.0
+tensorflow>=2.20       # first release series with Python 3.13 support
+
+# Explainability
+shap>=0.52
+
+# Notebook
+jupyter
+ipykernel
+
+# Concept drift detection (river) is installed separately, without its
+# dependencies, to avoid a NumPy conflict with numba:
+#   pip install river --no-deps

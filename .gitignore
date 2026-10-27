@@ -1,0 +1,30 @@
+# Datasets (download separately, see README)
+*.csv
+
+# Cached GeoJSON (downloaded automatically by the notebook)
+us-states.json
+
+# Charts saved by each run (curated copies live in images/)
+/chart_*.png
+
+# Saved models
+*.pkl
+*.joblib
+*.h5
+*.keras
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
